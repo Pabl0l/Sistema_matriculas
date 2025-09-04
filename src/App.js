@@ -14,9 +14,10 @@ function AppContent() {
     return <div className="loading">Cargando cursos...</div>;
   }
 
-  const handleLogout = () => {
-    dispatch({ type: 'SET_STUDENT', payload: null });
-  };
+const handleLogout = () => {
+  dispatch({ type: 'SET_STUDENT', payload: null });
+  dispatch({ type: 'RESET_ENROLLMENT' });
+};
 
   return (
     <div className="app">

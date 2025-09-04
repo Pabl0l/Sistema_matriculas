@@ -1,45 +1,77 @@
+/* CourseList.css actualizado */
 .course-list-container h2 {
-  margin-bottom: 1rem;
-  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
 .selected-courses-summary {
   background: white;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--success);
 }
 
 .selected-courses-summary h3 {
-  margin-bottom: 0.5rem;
-  color: #2c3e50;
+  margin-bottom: 1rem;
+  color: var(--dark);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.selected-courses-summary h3::before {
+  content: "📋";
 }
 
 .selected-course-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.selected-course-item:last-child {
+  border-bottom: none;
 }
 
 .remove-button {
-  background-color: #e74c3c;
-  color: white;
-  border: none;
-  padding: 0.25rem 0.5rem;
-  border-radius: 3px;
+  background-color: white;
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--border-radius-sm);
   cursor: pointer;
   font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
 .remove-button:hover {
-  background-color: #c0392b;
+  background-color: var(--danger);
+  color: white;
+  transform: scale(1.05);
 }
 
 .courses-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.debug-info {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  margin-top: 2rem;
+  border-left: 4px solid var(--warning);
+}
+
+.debug-info p {
+  margin-bottom: 0.5rem;
 }

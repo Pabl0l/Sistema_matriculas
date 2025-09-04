@@ -24,7 +24,10 @@ function enrollmentReducer(state, action) {
         selectedCourses: state.selectedCourses.filter(course => course.id !== action.payload) 
       };
     case 'COMPLETE_ENROLLMENT':
-      return { ...state, enrollmentComplete: true };
+      return { 
+        ...state, 
+        enrollmentComplete: action.payload !== undefined ? action.payload : true 
+      };
     case 'RESET_ENROLLMENT':
       return { ...initialState, courses: state.courses };
     default:
