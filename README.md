@@ -1,30 +1,29 @@
 Sistema de Matriculación Académica
 
-Una aplicación web desarrollada en React que permite a los estudiantes seleccionar y matricular cursos para su semestre académico actual.
-
+Un sitio web desarrollado en React que permite a los estudiantes seleccionar y matricular cursos para su semestre académico actual.
 🚀 Características
 
-    Autenticación de estudiantes con ID único
+  -  Autenticación de estudiantes con ID único
 
-    Visualización de cursos disponibles filtrados por semestre
+  -  Visualización de cursos disponibles filtrados por semestre
 
-    Sistema de validación de cupos y créditos
+  -  Sistema de validación de cupos y créditos
 
-    Resumen de matrícula antes de confirmar
+  -  Resumen de matrícula antes de confirmar
 
-    Persistencia de datos en localStorage
+  -  Persistencia de datos en localStorage
 
-    Interfaz responsive y amigable
+  -  Interfaz responsive y amigable
 
-    Validación de estado de matrícula del estudiante
+  -  Validación de estado de matrícula del estudiante
 
 📋 Requisitos Previos
 
-    Node.js (versión 14 o superior)
+  -  Node.js (versión 14 o superior)
 
-    npm o yarn
+  -  npm o yarn
 
-    Navegador web moderno
+  -  Navegador web moderno
 
 🛠️ Instalación
 
@@ -33,39 +32,53 @@ Sigue estos pasos para instalar y ejecutar la aplicación:
 bash
 
 # Si tienes el código en un repositorio
-git clone https://github.com/Pabl0l/Sistema_matriculas
+git clone <url-del-repositorio>
+cd sistema-matriculacion
+
+# Si tienes los archivos directamente
+# Navega a la carpeta del proyecto
+cd prueba-tecnica-react
 
 2. Instalar dependencias
-en bash:
+bash
 
 npm install
 
 3. Ejecutar la aplicación en modo desarrollo
-en bash:
+bash
 
 npm start
 
 4. Abrir en el navegador
 
 La aplicación se abrirá automáticamente en:
+text
 
 http://localhost:3000
 
 Si no se abre automáticamente, puedes acceder manualmente a la URL.
-
 🧪 Datos de Prueba
 
 La aplicación incluye datos de prueba para testing:
 Estudiantes disponibles:
 
-    ID: 100 - Juan Olivera (Matriculado, Semestre 1)
-    
-    ID: 101 - Juan Pérez (Matriculado, Semestre 1)
+    ID: 101 - Juan Pérez (Matriculado, Semestre 2)
 
-    ...
-    
-    ID: 112 - Luisa Arango (No matriculado, Semestre 1)
+    ID: 102 - María García (No matriculado, Semestre 1)
 
+    ID: 103 - Carlos Rodríguez (No matriculado, Semestre 5)
+
+    ID: 104 - Ana López (Matriculado, Semestre 3)
+
+Cursos por semestre:
+
+    Semestre 1: Matemáticas Aplicadas, Álgebra Lineal
+
+    Semestre 2: Programación en React, Física Básica, Bases de Datos, Diseño de Interfaces
+
+    Semestre 3: Cursos avanzados de programación
+
+    Semestre 5: Inteligencia Artificial, Desarrollo Web Avanzado, Bases de Datos Avanzadas
 
 🎯 Cómo Usar la Aplicación
 1. Inicio de Sesión
@@ -110,6 +123,20 @@ Estudiantes disponibles:
 
     ✅ Prevención de selección duplicada
 
+🏗️ Estructura del Proyecto
+text
+
+src/
+├── components/          # Componentes de React
+│   ├── Login/          # Formulario de autenticación
+│   ├── CourseList/     # Lista de cursos disponibles
+│   ├── EnrollmentSummary/  # Resumen de matrícula
+│   └── common/         # Componentes compartidos
+├── context/            # Context API para estado global
+├── data/              # Archivos JSON con datos de prueba
+├── hooks/             # Custom hooks personalizados
+├── styles/            # Archivos CSS
+└── App.js             # Componente principal
 
 🔧 Tecnologías Utilizadas
 
@@ -153,36 +180,30 @@ Características de UX:
 🚨 Solución de Problemas
 Error común: "No hay cursos disponibles"
 
-    Verifica que el estudiante esté en un semestre válido (1, 2, 3, ..., 10
+  -  Verifica que el estudiante esté en un semestre válido (1, 2, 3, ..., 10)
+
+  -  Asegúrate de que el archivo courses.json esté completo
+
+  -  Error de importación por mayúsculas/minúsculas:
+bash
 
 Limpiar caché si hay problemas:
+bash
 
 npm start -- --reset-cache
 
+
 📝 Notas de Desarrollo
 
-    Los datos se simulan mediante archivos JSON
+  -  Los datos se simulan mediante archivos JSON
 
-    El estado se persiste en localStorage del navegador
+  -  El estado se persiste en localStorage del navegador
 
-    La aplicación está optimizada para SEO y accesibilidad
+  -  La aplicación está optimizada para SEO y accesibilidad
 
-    Código modular y componentes reutilizables
+  -  Código modular y componentes reutilizables
 
-❌ Limitaciones
-
-El sitio web está simulando un backend y base de datos mediante archivos JSON. Sin embargo estos archivos no son modificables,
-por lo que al momento de matricular a un estudiante el cupo del curso sigue siendo el mismo.
-
-Por otro lado, no se puede relacionar alumnos con estudiantes por falta de una base de datos.
-
-El proyecto se ajustó a los requerimientos puestos en la prueba y también hay que tener en cuenta el plazo de tiempo para realizar el proyecto (menos de 1 día).
-
-Este proyecto se centra principalmente en demostrar mis habilidades con React.
-
-El sitio es vulnerable en el aspecto de que no necesita contraseña para acceder a los datos de los estudiantes, por lo que con fuerza bruta se podrían robar los datos, 
-o borrar todas las matrículas (en caso de que el backend estuviera implementado)
 
 📄 Licencia
 
-Este proyecto es para fines educativos y de evaluación técnica.
+Este proyecto es para de evaluación técnica.
