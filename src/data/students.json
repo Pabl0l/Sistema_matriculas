@@ -28,7 +28,7 @@
     "nombre": "Julia Quintero",
     "carrera": "Redes Informáticas",
     "semestre": 3,
-    "matriculado": true,
+    "matriculado": false,
     "creditosPermitidos": 14
   },
   {
