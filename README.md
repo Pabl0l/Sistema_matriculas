@@ -48,7 +48,6 @@ npm start
 4. Abrir en el navegador
 
 La aplicación se abrirá automáticamente en:
-text
 
 http://localhost:3000
 
