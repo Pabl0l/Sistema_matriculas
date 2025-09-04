@@ -1,0 +1,471 @@
+[
+  {
+    "id": 1,
+    "nombre": "Matemáticas Aplicadas",
+    "codigo": "MAI101",
+    "creditos": 3,
+    "semestre": 1,
+    "limiteCupos": 30,
+    "matriculados": 25
+  },
+  {
+    "id": 2,
+    "nombre": "Programación en React",
+    "codigo": "PRG201",
+    "creditos": 4,
+    "semestre": 2,
+    "limiteCupos": 20,
+    "matriculados": 18
+  },
+  {
+    "id": 3,
+    "nombre": "Física Básica",
+    "codigo": "FIS102",
+    "creditos": 4,
+    "semestre": 2,
+    "limiteCupos": 40,
+    "matriculados": 30
+  },
+  {
+    "id": 4,
+    "nombre": "Bases de Datos",
+    "codigo": "BD202",
+    "creditos": 3,
+    "semestre": 2,
+    "limiteCupos": 25,
+    "matriculados": 17
+  },
+  {
+    "id": 5,
+    "nombre": "Algebra Lineal",
+    "codigo": "ALG103",
+    "creditos": 4,
+    "semestre": 1,
+    "limiteCupos": 50,
+    "matriculados": 35
+  },
+  {
+    "id": 6,
+    "nombre": "Diseño de Interfaces",
+    "codigo": "UX203",
+    "creditos": 3,
+    "semestre": 2,
+    "limiteCupos": 15,
+    "matriculados": 10
+  },
+  {
+    "id": 7,
+    "nombre": "Inteligencia Artificial",
+    "codigo": "IA305",
+    "creditos": 4,
+    "semestre": 5,
+    "limiteCupos": 25,
+    "matriculados": 15
+  },
+  {
+    "id": 8,
+    "nombre": "Desarrollo Web Avanzado",
+    "codigo": "DWA305",
+    "creditos": 3,
+    "semestre": 5,
+    "limiteCupos": 20,
+    "matriculados": 12
+  },
+  {
+    "id": 9,
+    "nombre": "Bases de Datos Avanzadas",
+    "codigo": "BDA305",
+    "creditos": 4,
+    "semestre": 5,
+    "limiteCupos": 30,
+    "matriculados": 18
+  },
+  {
+    "id": 10,
+    "nombre": "Cálculo I",
+    "codigo": "CAL101",
+    "creditos": 4,
+    "semestre": 1,
+    "limiteCupos": 40,
+    "matriculados": 32
+  },
+  {
+    "id": 11,
+    "nombre": "Introducción a la Programación",
+    "codigo": "IPR102",
+    "creditos": 3,
+    "semestre": 1,
+    "limiteCupos": 35,
+    "matriculados": 28
+  },
+  {
+    "id": 12,
+    "nombre": "Química General",
+    "codigo": "QUI103",
+    "creditos": 4,
+    "semestre": 1,
+    "limiteCupos": 45,
+    "matriculados": 38
+  },
+  {
+    "id": 13,
+    "nombre": "Programación Orientada a Objetos",
+    "codigo": "POO201",
+    "creditos": 4,
+    "semestre": 2,
+    "limiteCupos": 30,
+    "matriculados": 22
+  },
+  {
+    "id": 14,
+    "nombre": "Estructuras de Datos",
+    "codigo": "ED202",
+    "creditos": 4,
+    "semestre": 2,
+    "limiteCupos": 28,
+    "matriculados": 20
+  },
+  {
+    "id": 15,
+    "nombre": "Cálculo II",
+    "codigo": "CAL203",
+    "creditos": 4,
+    "semestre": 2,
+    "limiteCupos": 35,
+    "matriculados": 30
+  },
+  {
+    "id": 16,
+    "nombre": "Redes de Computadoras",
+    "codigo": "RED301",
+    "creditos": 4,
+    "semestre": 3,
+    "limiteCupos": 25,
+    "matriculados": 18
+  },
+  {
+    "id": 17,
+    "nombre": "Sistemas Operativos",
+    "codigo": "SO302",
+    "creditos": 4,
+    "semestre": 3,
+    "limiteCupos": 30,
+    "matriculados": 22
+  },
+  {
+    "id": 18,
+    "nombre": "Ingeniería de Software I",
+    "codigo": "IS303",
+    "creditos": 3,
+    "semestre": 3,
+    "limiteCupos": 28,
+    "matriculados": 20
+  },
+  {
+    "id": 19,
+    "nombre": "Arquitectura de Computadoras",
+    "codigo": "AC304",
+    "creditos": 4,
+    "semestre": 3,
+    "limiteCupos": 25,
+    "matriculados": 19
+  },
+  {
+    "id": 20,
+    "nombre": "Desarrollo de Aplicaciones Móviles",
+    "codigo": "DAM401",
+    "creditos": 4,
+    "semestre": 4,
+    "limiteCupos": 22,
+    "matriculados": 15
+  },
+  {
+    "id": 21,
+    "nombre": "Bases de Datos II",
+    "codigo": "BD402",
+    "creditos": 4,
+    "semestre": 4,
+    "limiteCupos": 25,
+    "matriculados": 18
+  },
+  {
+    "id": 22,
+    "nombre": "Ingeniería de Software II",
+    "codigo": "IS403",
+    "creditos": 3,
+    "semestre": 4,
+    "limiteCupos": 20,
+    "matriculados": 14
+  },
+  {
+    "id": 23,
+    "nombre": "Inteligencia Artificial Avanzada",
+    "codigo": "IAA501",
+    "creditos": 4,
+    "semestre": 5,
+    "limiteCupos": 18,
+    "matriculados": 12
+  },
+  {
+    "id": 24,
+    "nombre": "Machine Learning",
+    "codigo": "ML502",
+    "creditos": 4,
+    "semestre": 5,
+    "limiteCupos": 20,
+    "matriculados": 16
+  },
+  {
+    "id": 25,
+    "nombre": "Computación en la Nube",
+    "codigo": "CN503",
+    "creditos": 3,
+    "semestre": 5,
+    "limiteCupos": 25,
+    "matriculados": 20
+  },
+  {
+    "id": 26,
+    "nombre": "Seguridad Informática",
+    "codigo": "SI504",
+    "creditos": 4,
+    "semestre": 5,
+    "limiteCupos": 22,
+    "matriculados": 17
+  },
+  {
+    "id": 27,
+    "nombre": "Proyecto de Grado I",
+    "codigo": "PG505",
+    "creditos": 4,
+    "semestre": 5,
+    "limiteCupos": 30,
+    "matriculados": 25
+  },
+  {
+    "id": 28,
+    "nombre": "Big Data Analytics",
+    "codigo": "BDA601",
+    "creditos": 4,
+    "semestre": 6,
+    "limiteCupos": 20,
+    "matriculados": 14
+  },
+  {
+    "id": 29,
+    "nombre": "Desarrollo de Videojuegos",
+    "codigo": "VDJ602",
+    "creditos": 3,
+    "semestre": 6,
+    "limiteCupos": 18,
+    "matriculados": 12
+  },
+  {
+    "id": 30,
+    "nombre": "Ciberseguridad Avanzada",
+    "codigo": "CSA603",
+    "creditos": 4,
+    "semestre": 6,
+    "limiteCupos": 16,
+    "matriculados": 10
+  },
+  {
+    "id": 31,
+    "nombre": "Internet de las Cosas (IoT)",
+    "codigo": "IOT604",
+    "creditos": 3,
+    "semestre": 6,
+    "limiteCupos": 22,
+    "matriculados": 15
+  },
+  {
+    "id": 32,
+    "nombre": "Blockchain y Criptomonedas",
+    "codigo": "BLC605",
+    "creditos": 4,
+    "semestre": 6,
+    "limiteCupos": 18,
+    "matriculados": 13
+  },
+  {
+    "id": 33,
+    "nombre": "Realidad Virtual y Aumentada",
+    "codigo": "RVA701",
+    "creditos": 3,
+    "semestre": 7,
+    "limiteCupos": 15,
+    "matriculados": 9
+  },
+  {
+    "id": 34,
+    "nombre": "Inteligencia de Negocios",
+    "codigo": "IN702",
+    "creditos": 4,
+    "semestre": 7,
+    "limiteCupos": 20,
+    "matriculados": 14
+  },
+  {
+    "id": 35,
+    "nombre": "Computación Cuántica",
+    "codigo": "CC703",
+    "creditos": 4,
+    "semestre": 7,
+    "limiteCupos": 12,
+    "matriculados": 8
+  },
+  {
+    "id": 36,
+    "nombre": "DevOps y CI/CD",
+    "codigo": "DEV704",
+    "creditos": 3,
+    "semestre": 7,
+    "limiteCupos": 18,
+    "matriculados": 12
+  },
+  {
+    "id": 37,
+    "nombre": "Arquitecturas Cloud Native",
+    "codigo": "ACN705",
+    "creditos": 4,
+    "semestre": 7,
+    "limiteCupos": 16,
+    "matriculados": 11
+  },
+  {
+    "id": 38,
+    "nombre": "Machine Learning Avanzado",
+    "codigo": "MLA801",
+    "creditos": 4,
+    "semestre": 8,
+    "limiteCupos": 14,
+    "matriculados": 10
+  },
+  {
+    "id": 39,
+    "nombre": "Deep Learning",
+    "codigo": "DL802",
+    "creditos": 4,
+    "semestre": 8,
+    "limiteCupos": 15,
+    "matriculados": 11
+  },
+  {
+    "id": 40,
+    "nombre": "Procesamiento de Lenguaje Natural",
+    "codigo": "PLN803",
+    "creditos": 3,
+    "semestre": 8,
+    "limiteCupos": 16,
+    "matriculados": 12
+  },
+  {
+    "id": 41,
+    "nombre": "Visión por Computadora",
+    "codigo": "VC804",
+    "creditos": 4,
+    "semestre": 8,
+    "limiteCupos": 14,
+    "matriculados": 9
+  },
+  {
+    "id": 42,
+    "nombre": "Robótica Autónoma",
+    "codigo": "RA805",
+    "creditos": 4,
+    "semestre": 8,
+    "limiteCupos": 12,
+    "matriculados": 8
+  },
+  {
+    "id": 43,
+    "nombre": "Gestión de Proyectos TI",
+    "codigo": "GPT901",
+    "creditos": 3,
+    "semestre": 9,
+    "limiteCupos": 20,
+    "matriculados": 15
+  },
+  {
+    "id": 44,
+    "nombre": "Ética en Inteligencia Artificial",
+    "codigo": "EIA902",
+    "creditos": 2,
+    "semestre": 9,
+    "limiteCupos": 25,
+    "matriculados": 20
+  },
+  {
+    "id": 45,
+    "nombre": "Transformación Digital",
+    "codigo": "TD903",
+    "creditos": 3,
+    "semestre": 9,
+    "limiteCupos": 18,
+    "matriculados": 14
+  },
+  {
+    "id": 46,
+    "nombre": "Innovación Tecnológica",
+    "codigo": "IT904",
+    "creditos": 3,
+    "semestre": 9,
+    "limiteCupos": 16,
+    "matriculados": 12
+  },
+  {
+    "id": 47,
+    "nombre": "Emprendimiento Tecnológico",
+    "codigo": "ET905",
+    "creditos": 3,
+    "semestre": 9,
+    "limiteCupos": 22,
+    "matriculados": 18
+  },
+  {
+    "id": 48,
+    "nombre": "Proyecto de Grado II",
+    "codigo": "PG1001",
+    "creditos": 6,
+    "semestre": 10,
+    "limiteCupos": 30,
+    "matriculados": 25
+  },
+  {
+    "id": 49,
+    "nombre": "Práctica Profesional",
+    "codigo": "PP1002",
+    "creditos": 8,
+    "semestre": 10,
+    "limiteCupos": 40,
+    "matriculados": 35
+  },
+  {
+    "id": 50,
+    "nombre": "Seminario de Investigación",
+    "codigo": "SI1003",
+    "creditos": 4,
+    "semestre": 10,
+    "limiteCupos": 25,
+    "matriculados": 20
+  },
+  {
+    "id": 51,
+    "nombre": "Tópicos Especiales en TI",
+    "codigo": "TE1004",
+    "creditos": 3,
+    "semestre": 10,
+    "limiteCupos": 20,
+    "matriculados": 15
+  },
+  {
+    "id": 52,
+    "nombre": "Gestión de Tecnologías Emergentes",
+    "codigo": "GTE1005",
+    "creditos": 4,
+    "semestre": 10,
+    "limiteCupos": 18,
+    "matriculados": 14
+  }
+
+]

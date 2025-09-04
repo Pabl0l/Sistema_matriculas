@@ -1,0 +1,106 @@
+[
+  {
+    "id": 101,
+    "nombre": "Juan Pérez",
+    "carrera": "Ingeniería de Sistemas",
+    "semestre": 1,
+    "matriculado": true,
+    "creditosPermitidos": 20
+  },
+  {
+    "id": 100,
+    "nombre": "Juan Olivera",
+    "carrera": "Ingeniería Telemática",
+    "semestre": 1,
+    "matriculado": true,
+    "creditosPermitidos": 10
+  },
+  {
+    "id": 102,
+    "nombre": "Jhon Parra",
+    "carrera": "Diseño Web",
+    "semestre": 2,
+    "matriculado": true,
+    "creditosPermitidos": 14
+  },
+  {
+    "id": 103,
+    "nombre": "Julia Quintero",
+    "carrera": "Redes Informáticas",
+    "semestre": 3,
+    "matriculado": true,
+    "creditosPermitidos": 14
+  },
+  {
+    "id": 104,
+    "nombre": "Camila Torres",
+    "carrera": "Ingeniería Electrónica",
+    "semestre": 4,
+    "matriculado": true,
+    "creditosPermitidos": 18
+  },
+  {
+    "id": 105,
+    "nombre": "Andrés Gómez",
+    "carrera": "Ingeniería Mecatrónica",
+    "semestre": 5,
+    "matriculado": true,
+    "creditosPermitidos": 18
+  },
+  {
+    "id": 106,
+    "nombre": "María Fernández",
+    "carrera": "Arquitectura de Software",
+    "semestre": 6,
+    "matriculado": true,
+    "creditosPermitidos": 18
+  },
+  {
+    "id": 107,
+    "nombre": "Pedro Martínez",
+    "carrera": "Ingeniería Civil",
+    "semestre": 7,
+    "matriculado": true,
+    "creditosPermitidos": 16
+  },
+  {
+    "id": 108,
+    "nombre": "Sofía Ramírez",
+    "carrera": "Ciberseguridad",
+    "semestre": 8,
+    "matriculado": true,
+    "creditosPermitidos": 19
+  },
+  {
+    "id": 109,
+    "nombre": "Luis Carrera",
+    "carrera": "Ciencia de Datos",
+    "semestre": 9,
+    "matriculado": true,
+    "creditosPermitidos": 12
+  },
+  {
+    "id": 110,
+    "nombre": "Luis Herrera",
+    "carrera": "Ciencia de Datos",
+    "semestre": 10,
+    "matriculado": true,
+    "creditosPermitidos": 12
+  },
+  {
+    "id": 111,
+    "nombre": "Luis Alonso",
+    "carrera": "Ciencia de Datos",
+    "semestre": 1,
+    "matriculado": true,
+    "creditosPermitidos": 12
+  },
+  {
+    "id": 112,
+    "nombre": "Luisa Arango",
+    "carrera": "Ciencia de Datos",
+    "semestre": 1,
+    "matriculado": false,
+    "creditosPermitidos": 12
+  }
+]
