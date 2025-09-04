@@ -181,6 +181,9 @@ El proyecto se ajustó a los requerimientos puestos en la prueba y también hay 
 
 Este proyecto se centra principalmente en demostrar mis habilidades con React.
 
+El sitio es vulnerable en el aspecto de que no necesita contraseña para acceder a los datos de los estudiantes, por lo que con fuerza bruta se podrían robar los datos, 
+o borrar todas las matrículas (en caso de que el backend estuviera implementado)
+
 📄 Licencia
 
 Este proyecto es para fines educativos y de evaluación técnica.
